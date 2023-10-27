@@ -11,7 +11,7 @@ const onload = () => {
     id: undefined,
     config: {
       // host: "nameless-island-07977.herokuapp.com",
-      // secure: true,
+      secure: true,
       port: 9000,
       host: "localhost",
       path: "/",

@@ -1,8 +1,8 @@
 const server = require("http").createServer((request, response) => {
   response.writeHead(204, {
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Headers": "X-Requested-With",
-    // "Access-Control-Allow-Headers": "Content-Type",
+    // "Access-Control-Allow-Headers": "X-Requested-With",
+    "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Allow-Methods": "PUT, GET, POST, DELETE, OPTIONS",
   });
   response.end("hey there!");
